@@ -13,5 +13,6 @@ describe("Caesar's Cipher", () => {
   it('should decode messages by 13 places', () => {
     expect(caesar('SERR PBQR PNZC')).to.equal('FREE CODE CAMP');
     expect(caesar('SERR CVMMN!')).to.equal('FREE PIZZA!');
+    expect(caesar('SERR YBIR?')).to.equal('FREE LOVE?');
   });
 });
