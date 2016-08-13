@@ -4,10 +4,10 @@
   "description": "code from the challenges",
   "main": "index.js",
   "directories": {
-    "test": "tests"
+    "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "Mike3run",
   "license": "MIT",
